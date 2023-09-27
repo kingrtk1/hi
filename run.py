@@ -29,10 +29,10 @@ def clear():
  Version: 1.6
 \033[1;37m------------------------------------------""") 
     else:
-        print(' Update done successfully wait for setup! ')
-        time.sleep(2)
-        os.system('rm -rf AutoCreate && python create.py')
-        exit()
+print(' Update done successfully wait for setup! ')
+time.sleep(2)
+os.system('rm -rf AutoCreate && python create.py')
+exit()
 except Exception as e:exit('\n Network connection error '+e)
 def cvt(st,ran):
     try:
